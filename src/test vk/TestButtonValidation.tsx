@@ -10,6 +10,8 @@ import { useState } from "react";
 
 export const TestButtonValidation = () => {
   const [value, setValue] = useState("");
+  // onChange={(e) =>  if(e.target.value != "e" && e.target.value > 0) {setValue(e.target.value)}}
+
   // value =(event) => {
   // }
 
@@ -22,9 +24,12 @@ export const TestButtonValidation = () => {
             required
             value={value}
             type="number"
-            onChange={(e) => setValue(e.target.value)}
+            // onChange={(e) => setValue(e.target.value)}
             // error={!value}
-            helperText={!value ? "Number" : "Only numbers [1-9], Can't be 0"}
+            // onChange={(e) => if (e.target.value != "e" && e.target.value > 0) {setValue(e.target.value)}}
+
+            // helperText={!value ? "Number" : "Only numbers [1-9], Can't be 0"}
+            // inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }}  
           />
         </Stack>
       </Grid>
