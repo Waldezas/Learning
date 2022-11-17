@@ -10,6 +10,8 @@ import { MuiSelect } from './components/MuiSelect';
 import { MuiTextField } from './components/MuiTextField';
 import { MuiButton } from './components/MuiButton';
 import { MuiTypography } from './components/MuiTypography';
+import { MuiAccordion } from './components/MuiAccordion';
+import { MuiImageList } from './components/MuiImageList';
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
     {/* <MuiAutocomplete /> */}
     {/* {<MuiLayout />} */}
     {/* {<MuiCard />} */}
+    {/* <MuiAccordion /> */}
+    <MuiImageList />
+
   </div>
     );
 }
