@@ -12,6 +12,7 @@ import { MuiButton } from './components/MuiButton';
 import { MuiTypography } from './components/MuiTypography';
 import { MuiAccordion } from './components/MuiAccordion';
 import { MuiImageList } from './components/MuiImageList';
+import { TestButtonValidation } from './test vk/TestButtonValidation';
 
 function App() {
   return (
@@ -28,7 +29,9 @@ function App() {
     {/* {<MuiLayout />} */}
     {/* {<MuiCard />} */}
     {/* <MuiAccordion /> */}
-    <MuiImageList />
+    {/* <MuiImageList /> */}
+
+    <TestButtonValidation />
 
   </div>
     );
